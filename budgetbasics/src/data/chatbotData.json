@@ -1,0 +1,51 @@
+{
+  "sugPrompts": [
+    "What is a need vs a want?",
+    "How does 50/30/20 work?",
+    "How much should I save from an allowance?",
+    "Tips to stop impulse buying"
+  ],
+  "knowledgeBase": [
+    {
+      "keywords": ["need", "want"],
+      "matchAll": true,
+      "response": "Needs are mandatory for your health, safety, and continuing your studies (rent, groceries, transit, course textbooks). Wants are lifestyle extras (dining out, streaming bundles, trendy sneakers). A good target is keeping Wants under 30% of your allowance!"
+    },
+    {
+      "keywords": ["need"],
+      "matchAll": false,
+      "response": "A Need is an essential requirement for survival and education—things like hostel rent, basic food groceries, utility bills, commuter bus passes, and prescribed study materials."
+    },
+    {
+      "keywords": ["want"],
+      "matchAll": false,
+      "response": "A Want is discretionary spending that makes college fun but isn't strictly mandatory—like specialty coffees, takeout food delivery, video game passes, and new clothes when you already have enough."
+    },
+    {
+      "keywords": ["50/30/20", "rule", "ratio", "split"],
+      "matchAll": false,
+      "response": "The 50/30/20 framework splits your monthly income into:\n• 50% for Needs (rent, bills, groceries)\n• 30% for Wants (fun, dining, hobbies)\n• 20% for Savings (emergency cushion & debt payoff)\nIf living costs are high, try 60/25/15 instead!"
+    },
+    {
+      "keywords": ["save", "saving", "allowance", "pocket"],
+      "matchAll": false,
+      "response": "The #1 rule for students: 'Pay Yourself First'! When your allowance or stipend arrives on Day 1, move 15–20% immediately into a separate savings pot before you start spending. Don't rely on saving whatever loose change remains at month-end!"
+    },
+    {
+      "keywords": ["impulse", "overspend", "stop"],
+      "matchAll": false,
+      "response": "Try the 24-Hour Rule! When you see an item online or in a shop, wait a full day before tapping checkout. 70% of the time, the emotional urge passes and you keep that cash in your wallet."
+    },
+    {
+      "keywords": ["emergency", "buffer"],
+      "matchAll": false,
+      "response": "Aim to build a starter $200–$300 emergency buffer in college. It protects you from panic whenever a phone display cracks, unexpected dental filling is needed, or a textbook fee arises."
+    },
+    {
+      "keywords": ["subscription", "trial", "spotify", "netflix"],
+      "matchAll": false,
+      "response": "Audit recurring charges monthly! Always use your student (.edu) email for student discounts, rotate streaming platforms one at a time, and set calendar alerts to cancel free trials before they auto-renew."
+    }
+  ],
+  "defaultResponse": "Great question! I specialize in student budgeting, the 50/30/20 rule, saving hacks, and avoiding money leaks. Feel free to ask about needs vs. wants or tap one of the suggested prompts above!"
+}

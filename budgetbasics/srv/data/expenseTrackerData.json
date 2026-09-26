@@ -1,0 +1,64 @@
+{
+  "defaultStudentExpenses": [
+    {
+      "id": 1,
+      "desc": "Monthly Campus Transit Pass",
+      "amount": 45.0,
+      "category": "Need"
+    },
+    {
+      "id": 2,
+      "desc": "Required Chemistry Lab Manual",
+      "amount": 32.5,
+      "category": "Need"
+    },
+    {
+      "id": 3,
+      "desc": "Campus Cafeteria Lunch Meal",
+      "amount": 8.5,
+      "category": "Need"
+    },
+    {
+      "id": 4,
+      "desc": "Late-Night DoorDash Delivery & Fees",
+      "amount": 28.0,
+      "category": "Worthless"
+    },
+    {
+      "id": 5,
+      "desc": "Forgotten Video Streaming Trial",
+      "amount": 14.99,
+      "category": "Worthless"
+    },
+    {
+      "id": 6,
+      "desc": "Weekend Cinema & Snacks with Friends",
+      "amount": 18.0,
+      "category": "Want"
+    },
+    {
+      "id": 7,
+      "desc": "In-App Gaming Battle Pass",
+      "amount": 9.99,
+      "category": "Worthless"
+    }
+  ],
+  "incomePresets": [
+    {
+      "label": "Pocket Allowance",
+      "amount": 450
+    },
+    {
+      "label": "Part-Time Job",
+      "amount": 950
+    },
+    {
+      "label": "Work-Study Stipend",
+      "amount": 1400
+    },
+    {
+      "label": "Company Internship",
+      "amount": 2600
+    }
+  ]
+}

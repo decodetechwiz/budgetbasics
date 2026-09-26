@@ -1,0 +1,20 @@
+{
+  "studentPresets": [
+    {
+      "label": "Pocket Allowance",
+      "amount": 450
+    },
+    {
+      "label": "Campus Work-Study",
+      "amount": 1200
+    },
+    {
+      "label": "Summer Internship",
+      "amount": 2800
+    },
+    {
+      "label": "Junior Developer",
+      "amount": 3500
+    }
+  ]
+}

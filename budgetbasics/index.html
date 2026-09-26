@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BudgetBasics | Student Financial Literacy</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="BudgetBasics is an interactive educational platform engineered for college students. Master the 50/30/20 budgeting rule, log expenses privately, test needs vs wants, and explore visual money guides with zero bank linking."
+    />
+    <meta
+      name="keywords"
+      content="budget basics, student budgeting, 50 30 20 rule calculator, college expense tracker, needs vs wants game, financial literacy for students, student money guide, zero bank linking"
+    />
+    <meta name="author" content="Team Decode" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://budgetbasics.app/" />
+    <meta name="theme-color" content="#10b981" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://budgetbasics.app/" />
+    <meta property="og:title" content="BudgetBasics | Student Financial Literacy" />
+    <meta
+      property="og:description"
+      content="Demystifying personal finance for students. Practice Needs vs Wants, calculate your 50/30/20 semester budget, and track expenses with complete privacy."
+    />
+    <meta property="og:image" content="/assets/hero.png" />
+    <meta property="og:site_name" content="BudgetBasics" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://budgetbasics.app/" />
+    <meta name="twitter:title" content="BudgetBasics | Student Financial Literacy" />
+    <meta
+      name="twitter:description"
+      content="Demystifying personal finance for students. Practice Needs vs Wants, calculate your 50/30/20 semester budget, and track expenses with complete privacy."
+    />
+    <meta name="twitter:image" content="/assets/hero.png" />
+
+    <!-- Schema.org JSON-LD Structured Data for Top Search Engine Ranking -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://budgetbasics.app/#website",
+            "url": "https://budgetbasics.app/",
+            "name": "BudgetBasics",
+            "description": "Student Financial Literacy Platform featuring 50/30/20 Calculator, Expense Tracker, and Needs vs Wants Game.",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebApplication",
+            "@id": "https://budgetbasics.app/#webapp",
+            "url": "https://budgetbasics.app/",
+            "name": "BudgetBasics Web Application",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "All",
+            "browserRequirements": "Requires JavaScript. Requires HTML5.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://budgetbasics.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is BudgetBasics, and is it really 100% free for students?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, BudgetBasics is completely free! We built it as a dedicated educational initiative to empower college students and young adults with foundational financial literacy with no paywalls or bank logins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does the 50/30/20 budgeting rule work for students with a small income?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The 50/30/20 rule divides your income into 50% for Needs, 30% for Wants, and 20% for Savings. It works on percentages, making it flexible for any student allowance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I have to connect my bank account or share personal information?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Never. BudgetBasics is designed with client-side privacy. All expense records and calculations are stored locally in your browser."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preconnect & DNS-Prefetch for Speed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="dns-prefetch" href="https://ui-avatars.com" />
+
+    <!-- Typography & CSS Framework (Optimized weight subsets) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+{
+  "allGuides": [
+    {
+      "id": "guide-50-30-20-budget",
+      "order": 1,
+      "category": "Budgeting",
+      "badge": "Guide #1",
+      "badgeColor": "#059669",
+      "badgeBg": "rgba(16, 185, 129, 0.14)",
+      "title": "The 50/30/20 Student Rule Blueprint",
+      "description": "A balanced, guilt-free framework that divides your monthly income between essential living bills, campus social fun, and future security.",
+      "iconName": "PiggyBank",
+      "iconColor": "text-success",
+      "boxBg": "rgba(16, 185, 129, 0.05)",
+      "boxBorder": "rgba(16, 185, 129, 0.25)",
+      "actionItems": [
+        "Dedicate 50% strictly to rent, groceries, transit, and course materials.",
+        "Reserve 30% for campus dining, concerts, and guilt-free leisure.",
+        "Lock 20% into savings or paying down student loan balances."
+      ]
+    },
+    {
+      "id": "guide-zero-based-budget",
+      "order": 2,
+      "category": "Budgeting",
+      "badge": "Guide #2",
+      "badgeColor": "#059669",
+      "badgeBg": "rgba(16, 185, 129, 0.14)",
+      "title": "Zero-Based Campus Budgeting",
+      "description": "Give every single dollar an exact destination before the month begins so spare cash doesn't disappear into untracked convenience buys.",
+      "iconName": "Calculator",
+      "iconColor": "text-success",
+      "boxBg": "rgba(16, 185, 129, 0.05)",
+      "boxBorder": "rgba(16, 185, 129, 0.25)",
+      "actionItems": [
+        "Calculate your total monthly income or allowance on the 1st of each month.",
+        "Allocate every dollar across categories until Income minus Expenses equals Zero.",
+        "Sweep any surplus change directly into your emergency reserve."
+      ]
+    },
+    {
+      "id": "guide-emergency-fund",
+      "order": 3,
+      "category": "Savings",
+      "badge": "Guide #3",
+      "badgeColor": "#2563eb",
+      "badgeBg": "rgba(59, 130, 246, 0.14)",
+      "title": "Emergency Fund Starter Cushion",
+      "description": "A modest starter cushion converts an unexpected crisis—like a broken laptop charger or clinic prescription—into a minor inconvenience.",
+      "iconName": "ShieldCheck",
+      "iconColor": "text-primary",
+      "boxBg": "rgba(59, 130, 246, 0.05)",
+      "boxBorder": "rgba(59, 130, 246, 0.25)",
+      "actionItems": [
+        "Target an initial starter buffer of $250 to $500 while in college.",
+        "Keep it in a separate, fee-free high-yield student savings account.",
+        "Automate a $10 transfer each Friday right after your classes wrap up."
+      ]
+    },
+    {
+      "id": "guide-micro-savings",
+      "order": 4,
+      "category": "Savings",
+      "badge": "Guide #4",
+      "badgeColor": "#2563eb",
+      "badgeBg": "rgba(59, 130, 246, 0.14)",
+      "title": "The 30-Day Student Savings Sprint",
+      "description": "Build saving momentum with incremental micro-deposits that turn loose change into hundreds of dollars without feeling restrictive.",
+      "iconName": "Landmark",
+      "iconColor": "text-primary",
+      "boxBg": "rgba(59, 130, 246, 0.05)",
+      "boxBorder": "rgba(59, 130, 246, 0.25)",
+      "actionItems": [
+        "Save $1 on Day 1, $2 on Day 2, up through $30 on Day 30 to accumulate $465.",
+        "Reward milestones with free campus events instead of costly spending sprees.",
+        "Keep the sum locked specifically for end-of-semester course supplies."
+      ]
+    },
+    {
+      "id": "guide-subscription-trap",
+      "order": 5,
+      "category": "Wasted Expenses",
+      "badge": "Guide #5",
+      "badgeColor": "#d97706",
+      "badgeBg": "rgba(245, 158, 11, 0.15)",
+      "title": "The Subscription Trap & Zombie Trials",
+      "description": "Forgotten memberships and recurring free trials quietly bleed college student bank cards without providing ongoing value.",
+      "iconName": "CreditCard",
+      "iconColor": "text-warning",
+      "boxBg": "rgba(245, 158, 11, 0.05)",
+      "boxBorder": "rgba(245, 158, 11, 0.25)",
+      "actionItems": [
+        "Always set a calendar reminder 24 hours BEFORE free trials auto-renew.",
+        "Rotate streaming platforms: keep only 1 active subscription at a time.",
+        "Claim up to 50% discount using your verified .edu student email."
+      ]
+    },
+    {
+      "id": "guide-food-delivery-leaks",
+      "order": 6,
+      "category": "Wasted Expenses",
+      "badge": "Guide #6",
+      "badgeColor": "#d97706",
+      "badgeBg": "rgba(245, 158, 11, 0.15)",
+      "title": "Food Delivery Fees & Sneaky Surcharges",
+      "description": "Late-night food delivery apps quietly inflate a simple $12 campus meal into a $28 expense through delivery fees, service charges, and tips.",
+      "iconName": "AlertTriangle",
+      "iconColor": "text-warning",
+      "boxBg": "rgba(245, 158, 11, 0.05)",
+      "boxBorder": "rgba(245, 158, 11, 0.25)",
+      "actionItems": [
+        "Limit third-party food delivery apps to twice a month as a planned treat.",
+        "Batch cook 15-minute dorm staples (rice bowls, pasta, wraps) in advance.",
+        "Walk to campus dining halls or local eateries for pickup to dodge fees."
+      ]
+    },
+    {
+      "id": "guide-compound-growth",
+      "order": 7,
+      "category": "Investments",
+      "badge": "Guide #7",
+      "badgeColor": "#7c3aed",
+      "badgeBg": "rgba(124, 58, 237, 0.14)",
+      "title": "Compound Growth & Broad Index Funds 101",
+      "description": "Time in the market beats timing the market. Investing modest amounts in low-cost, diversified index funds harnesses exponential compounding.",
+      "iconName": "TrendingUp",
+      "iconColor": "text-info",
+      "boxBg": "rgba(124, 58, 237, 0.05)",
+      "boxBorder": "rgba(124, 58, 237, 0.25)",
+      "actionItems": [
+        "Harness the Rule of 72: divide 72 by interest rate to find doubling years.",
+        "Focus on low-cost diversified funds rather than risky meme stocks.",
+        "Even $25 to $50 a month started in college compounds significantly by age 30."
+      ]
+    },
+    {
+      "id": "guide-student-roth-ira",
+      "order": 8,
+      "category": "Investments",
+      "badge": "Guide #8",
+      "badgeColor": "#7c3aed",
+      "badgeBg": "rgba(124, 58, 237, 0.14)",
+      "title": "Student Roth IRA & Tax-Free Growth",
+      "description": "If you earn taxable wages from campus work-study or internships, a Roth IRA lets your long-term capital gains grow 100% tax-free forever.",
+      "iconName": "Briefcase",
+      "iconColor": "text-info",
+      "boxBg": "rgba(124, 58, 237, 0.05)",
+      "boxBorder": "rgba(124, 58, 237, 0.25)",
+      "actionItems": [
+        "Fund your Roth IRA using summer job or part-time campus earnings.",
+        "Contributions (the money you put in) can be withdrawn anytime penalty-free.",
+        "Set automatic monthly transfers of $20–$50 to establish lifelong investing discipline."
+      ]
+    }
+  ]
+}

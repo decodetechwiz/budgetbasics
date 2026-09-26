@@ -1,0 +1,107 @@
+{
+  "teamMembers": [
+    {
+      "id": "member-1",
+      "name": "Nihal",
+      "role": "Team Lead & Full-Stack Developer",
+      "avatarBg": "#10b981",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "Contributed throughout the project, with a primary focus on frontend development and UI/UX design. Worked on creating a responsive, intuitive, and visually engaging user experience.",
+      "skills": ["HTML", "CSS", "JavaScript", "Bootstrap", "ReactJS", "MS Office"],
+      "contribution": "Frontend & UI/UX"
+    },
+    {
+      "id": "member-2",
+      "name": "M.Ahmed",
+      "role": "UI Designer",
+      "avatarBg": "#3b82f6",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "bio": "Contributed to the project through creative web design and development of interactive cards and visual components, helping create a consistent and user-friendly interface.",
+      "skills": ["Web Designing", "HTML", "CSS", "JavaScript"],
+      "contribution": "Cards & Mobile Responsive Layouts"
+    },
+    {
+      "id": "member-3",
+      "name": "Mutahir",
+      "role": "Documentator & Content Strategist",
+      "avatarBg": "#f59e0b",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "bio": "Managed and contributed to the project documentation, organizing the project details, development process, features, and overall technical documentation clearly and effectively.",
+      "skills": ["MS Word", "MS PowerPoint", "HTML", "CSS", "JavaScript"],
+      "contribution": "Project Documentation & Report Preparation"
+    },
+    {
+      "id": "member-4",
+      "name": "Hamza",
+      "role": "Assets Manager",
+      "avatarBg": "#8b5cf6",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "bio": "Contributed to the project by managing and organizing visual and digital assets, ensuring they were properly prepared, consistent, and effectively integrated throughout the website.",
+      "skills": ["MS Word", "MS Excel", "HTML", "CSS", "JavaScript"],
+      "contribution": "File Organization & Icon Management"
+    }
+  ],
+  "projectPillars": [
+    {
+      "id": "pillar-1",
+      "iconName": "ShieldCheck",
+      "iconColor": "#10b981",
+      "bgColor": "rgba(16, 185, 129, 0.12)",
+      "title": "100% Free & Open Access",
+      "desc": "No locked tiers, paywalls, or predatory financial product advertisements. BudgetBasics is purely dedicated to student education."
+    },
+    {
+      "id": "pillar-2",
+      "iconName": "Award",
+      "iconColor": "#3b82f6",
+      "bgColor": "rgba(59, 130, 246, 0.12)",
+      "title": "Zero Bank Linking Required",
+      "desc": "Your privacy is paramount. We never request bank logins, credit card credentials, or personal identity documents. All calculations stay in your browser."
+    },
+    {
+      "id": "pillar-3",
+      "iconName": "Heart",
+      "iconColor": "#f59e0b",
+      "bgColor": "rgba(245, 158, 11, 0.12)",
+      "title": "Tailored For Student Life",
+      "desc": "Built from real student scenarios: roommate grocery splits, campus transit passes, used textbooks, and modest monthly allowances."
+    },
+    {
+      "id": "pillar-4",
+      "iconName": "Sparkles",
+      "iconColor": "#8b5cf6",
+      "bgColor": "rgba(139, 92, 246, 0.12)",
+      "title": "Habit-Building Simplicity",
+      "desc": "We replace intimidating 200-row spreadsheets with the simple 50/30/20 formula and quick daily expense tracking that takes seconds."
+    }
+  ],
+  "initialTestimonials": [
+    {
+      "id": 1,
+      "name": "Maya Patel",
+      "role": "Sophomore, Computer Science",
+      "rating": 5,
+      "category": "Overall Experience",
+      "comment": "The Needs vs Wants game opened my eyes! I didn't realize how much late-night takeout orders were quietly bleeding my monthly campus stipend.",
+      "date": "Sep 2026"
+    },
+    {
+      "id": 2,
+      "name": "Liam O'Connor",
+      "role": "First-Year Business Student",
+      "rating": 5,
+      "category": "50/30/20 Calculator",
+      "comment": "Having quick presets like $450 Pocket Allowance made testing immediate on my phone. Super clean and fast without annoying sign-up popups.",
+      "date": "Sep 2026"
+    },
+    {
+      "id": 3,
+      "name": "Elena Rostova",
+      "role": "Graduate Assistant",
+      "rating": 5,
+      "category": "Expense Tracker",
+      "comment": "Finally a tool that doesn't demand my bank credentials or bomb me with credit card ads. BudgetBasics is exactly what college students need.",
+      "date": "Aug 2026"
+    }
+  ]
+}

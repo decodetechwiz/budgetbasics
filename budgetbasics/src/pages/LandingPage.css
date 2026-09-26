@@ -1,0 +1,547 @@
+/* BudgetBasics - landing page & problem/solution tree styles */
+
+/* Hero section styling */
+.landing-hero {
+  position: relative;
+  background: linear-gradient(145deg, #065f46 0%, #047857 50%, #0f766e 100%);
+  border-radius: 1.25rem;
+  padding: 2.25rem 1.25rem;
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 16px 36px -8px rgba(5, 150, 105, 0.4);
+}
+
+@media (min-width: 768px) {
+  .landing-hero {
+    border-radius: 1.5rem;
+    padding: 3.5rem 3rem;
+  }
+}
+
+.landing-hero-backdrop-glow {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 240px;
+  height: 240px;
+  background: radial-gradient(
+    circle,
+    rgba(52, 211, 153, 0.3) 0%,
+    rgba(52, 211, 153, 0) 70%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .landing-hero-backdrop-glow {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+.hero-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(6, 78, 59, 0.7);
+  border: 1px solid rgba(110, 231, 183, 0.35);
+  color: #a7f3d0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .hero-pill-badge {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.9rem;
+  }
+}
+
+.hero-title {
+  font-size: 1.85rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  word-wrap: break-word;
+}
+
+@media (min-width: 576px) {
+  .hero-title {
+    font-size: 2.35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+.hero-definition-box {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  padding: 1.1rem 1.2rem;
+  margin-top: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .hero-definition-box {
+    padding: 1.25rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.benefit-card-hero {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.85rem;
+  padding: 0.9rem;
+  transition: all 0.25s ease;
+}
+
+@media (min-width: 576px) {
+  .benefit-card-hero {
+    padding: 1rem;
+  }
+}
+
+.benefit-card-hero:hover {
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+/* Problem & solution tree */
+.tree-container {
+  position: relative;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 1rem 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .tree-container {
+    padding: 1.5rem 0.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tree-container {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Central vertical line */
+.tree-trunk-line {
+  position: absolute;
+  top: 85px;
+  bottom: 227px;
+  left: 50%;
+  width: 4px;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #10b981 0%, #3b82f6 50%, #10b981 100%);
+  border-radius: 4px;
+  opacity: 0.85;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 767.98px) {
+  .tree-trunk-line {
+    display: none !important;
+  }
+}
+
+/* Root & crown nodes */
+.tree-root-card,
+.tree-crown-card {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06);
+  will-change: transform;
+}
+
+@media (min-width: 992px) {
+  .tree-root-card,
+  .tree-crown-card {
+    max-width: 760px;
+  }
+}
+
+.tree-root-card {
+  background: var(--card-bg);
+  border: 2px solid #10b981;
+}
+
+.tree-crown-card {
+  background: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.08) 0%,
+    rgba(59, 130, 246, 0.08) 100%
+  );
+  border: 2px dashed #10b981;
+}
+
+/* Tree branch row */
+.tree-branch-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.75rem;
+  width: 100%;
+}
+
+/* Side-by-side branch comparison */
+@media (min-width: 768px) {
+  .tree-branch-row {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 2.25rem;
+  }
+
+  /* Make cards wide and balanced across the entire row */
+  .tree-col-side {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Compact center junction: fixed width so horizontal connector lines are short */
+  .tree-center-junction {
+    flex: 0 0 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Short horizontal lines on X axis connecting cards to center pin */
+  .tree-center-junction::before,
+  .tree-center-junction::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    background: #10b981;
+    z-index: 1;
+  }
+
+  .tree-center-junction::before {
+    left: 0;
+    width: 50%;
+  }
+
+  .tree-center-junction::after {
+    right: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .tree-branch-row {
+    margin-bottom: 2.5rem;
+  }
+
+  .tree-center-junction {
+    flex: 0 0 76px;
+    width: 76px;
+  }
+}
+
+/* Mobile connector & styling */
+@media (max-width: 767.98px) {
+  .tree-col-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tree-center-junction {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25rem 0;
+    position: relative;
+    padding: 0.35rem 0;
+  }
+
+  /* Subtle vertical connector thread on mobile */
+  .tree-center-junction::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(239, 68, 68, 0.6) 0%, rgba(16, 185, 129, 0.6) 100%);
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .tree-center-junction::after {
+    display: none;
+  }
+
+  .tree-mobile-connector {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #10b981;
+    background-color: var(--card-bg);
+    padding: 0.3rem 0.85rem;
+    border-radius: 9999px;
+    border: 1.5px solid #10b981;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* Central branch connector pin */
+.tree-junction-pill {
+  background-color: var(--card-bg);
+  border: 2px solid #10b981;
+  color: #10b981;
+  padding: 0.28rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.22);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  position: relative;
+  z-index: 2;
+  user-select: none;
+}
+
+.tree-junction-num {
+  background-color: #10b981;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+/* Problem card */
+.tree-node-problem {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-left: 5px solid #ef4444;
+  border-radius: 1.15rem;
+  padding: 1.25rem 1.35rem;
+  box-shadow: 0 4px 15px -2px rgba(239, 68, 68, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .tree-node-problem {
+    padding: 1.45rem 1.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .tree-node-problem {
+    padding: 1.65rem 1.85rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tree-node-problem {
+    padding: 1.85rem 2.25rem;
+  }
+}
+
+.tree-node-problem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px -3px rgba(239, 68, 68, 0.16);
+}
+
+/* Solution card */
+.tree-node-solution {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-left: 5px solid #10b981;
+  border-radius: 1.15rem;
+  padding: 1.25rem 1.35rem;
+  box-shadow: 0 4px 15px -2px rgba(16, 185, 129, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .tree-node-solution {
+    padding: 1.45rem 1.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .tree-node-solution {
+    padding: 1.65rem 1.85rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tree-node-solution {
+    padding: 1.85rem 2.25rem;
+  }
+}
+
+.tree-node-solution:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px -3px rgba(16, 185, 129, 0.16);
+}
+
+@media (max-width: 767.98px) {
+  /* Prevent horizontal overflow from AOS animations on smaller screens */
+  [data-aos="fade-right"],
+  [data-aos="fade-left"] {
+    transform: translate3d(0, 16px, 0) !important;
+  }
+
+  [data-aos="fade-right"].aos-animate,
+  [data-aos="fade-left"].aos-animate {
+    transform: translate3d(0, 0, 0) !important;
+  }
+}
+
+/* FAQ's section */
+.faq-item-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.faq-item-card.is-open {
+  border-color: #10b981;
+  box-shadow: 0 6px 18px -4px rgba(16, 185, 129, 0.12);
+}
+
+.faq-trigger-btn {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 1rem 1.15rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  color: var(--text-main);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .faq-trigger-btn {
+    padding: 1.25rem 1.5rem;
+    font-size: 1.05rem;
+    gap: 1rem;
+  }
+}
+
+.faq-trigger-btn:hover {
+  color: #10b981;
+}
+
+.faq-icon-arrow {
+  color: var(--text-muted);
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.faq-item-card.is-open .faq-icon-arrow {
+  transform: rotate(180deg);
+  color: #10b981;
+}
+
+.faq-content-body {
+  padding: 0 1.15rem 1rem 1.15rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .faq-content-body {
+    padding: 0 1.5rem 1.25rem 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}
+
+/* Call to action banner */
+.landing-cta-banner {
+  background: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.15) 0%,
+    rgba(59, 130, 246, 0.15) 100%
+  );
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 1.25rem;
+  padding: 2rem 1.25rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .landing-cta-banner {
+    border-radius: 1.5rem;
+    padding: 3.5rem 3rem;
+  }
+}

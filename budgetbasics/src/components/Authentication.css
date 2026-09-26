@@ -1,0 +1,297 @@
+/* Authentication Component Styles */
+
+/* Avatar icon button in navbar */
+.auth-avatar-btn {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid #10b981;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+  overflow: visible;
+  touch-action: manipulation;
+}
+
+.auth-avatar-btn:hover,
+.auth-avatar-btn:focus-visible {
+  transform: scale(1.08);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+  border-color: #059669;
+}
+
+.auth-avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.auth-online-status-dot {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #10b981;
+  border: 2px solid var(--card-bg, #ffffff);
+  box-shadow: 0 0 4px rgba(16, 185, 129, 0.6);
+}
+
+/* User account info dropdown popover */
+.auth-profile-popover {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 330px;
+  max-width: calc(100vw - 1.5rem);
+  background-color: var(--card-bg, #ffffff);
+  border: 1px solid var(--border-color, #e5e7eb);
+  border-radius: 1rem;
+  box-shadow: 0 16px 36px -4px rgba(0, 0, 0, 0.16), 0 6px 12px -2px rgba(0, 0, 0, 0.08);
+  z-index: 1060;
+  overflow: hidden;
+  animation: authPopoverFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: top right;
+}
+
+@media (max-width: 576px) {
+  .auth-profile-popover {
+    right: -8px;
+    width: calc(100vw - 24px);
+    max-width: 320px;
+  }
+}
+
+@keyframes authPopoverFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.auth-popover-header {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(5, 150, 105, 0.06) 100%);
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+  padding: 1.15rem 1.25rem 1rem;
+}
+
+.auth-popover-user-text {
+  min-width: 0;
+  flex: 1 1 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.auth-popover-body {
+  padding: 1rem 1.15rem;
+}
+
+/* Modal overlay & card */
+.auth-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1080;
+  padding: 1rem 0.75rem;
+  animation: authBackdropFade 0.2s ease-out;
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+}
+
+@keyframes authBackdropFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.auth-modal-card {
+  width: 100%;
+  max-width: 460px;
+  max-height: min(620px, calc(100dvh - 2rem));
+  background-color: var(--card-bg, #ffffff);
+  border: 1px solid var(--border-color, #e5e7eb);
+  border-radius: 1.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: authModalSlideIn 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+@keyframes authModalSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.auth-modal-body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 1.25rem 1.35rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent iOS Safari automatic zoom on focus by ensuring font-size >= 16px */
+@media (max-width: 768px) {
+  .auth-modal-body input.form-control,
+  .auth-modal-body select.form-select {
+    font-size: 16px !important;
+  }
+}
+
+/* Tab Switcher */
+.auth-nav-tabs {
+  display: flex;
+  background-color: rgba(16, 185, 129, 0.08);
+  border-radius: 0.75rem;
+  padding: 4px;
+  gap: 4px;
+}
+
+.auth-tab-btn {
+  flex: 1;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--text-muted, #6b7280);
+  border-radius: 0.5rem;
+  transition: all 0.18s ease;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.auth-tab-btn.active {
+  background-color: var(--card-bg, #ffffff);
+  color: #10b981;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Field helper hint */
+.auth-field-hint {
+  font-size: 0.73rem;
+  line-height: 1.35;
+  color: var(--text-muted, #6b7280);
+  margin-top: 0.25rem;
+}
+
+/* Demo account quick login cards */
+.demo-user-badge {
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px dashed rgba(16, 185, 129, 0.35);
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.75rem;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: left;
+  touch-action: manipulation;
+}
+
+.demo-user-badge:hover,
+.demo-user-badge:active {
+  background: rgba(16, 185, 129, 0.14);
+  border-color: #10b981;
+  transform: translateY(-1px);
+}
+
+/* Avatar preset radio selector */
+.avatar-preset-option {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 2px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  object-fit: cover;
+  touch-action: manipulation;
+}
+
+.avatar-preset-option:hover {
+  transform: scale(1.1);
+}
+
+.avatar-preset-option.selected {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+}
+
+/* Mobile drawer user card */
+.mobile-auth-user-card {
+  background-color: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.35rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.mobile-user-details-col {
+  min-width: 0;
+  flex: 1 1 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.mobile-user-name {
+  font-size: 0.975rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-main, #1f2937);
+  letter-spacing: -0.01em;
+}
+
+.mobile-user-username {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #10b981;
+  line-height: 1.3;
+}
+
+.mobile-user-email {
+  font-size: 0.775rem;
+  color: var(--text-muted, #6b7280);
+  line-height: 1.3;
+}
+
+@media (max-width: 480px) {
+  .auth-modal-card {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+  .auth-modal-body {
+    padding: 1rem;
+  }
+  .mobile-auth-user-card {
+    padding: 0.85rem 1rem;
+  }
+  .mobile-user-details-col {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "studentItems": [
+    {
+      "id": "item-1",
+      "name": "Eyeglasses / Contacts",
+      "category": "Need",
+      "tip": "Essential for health, reading lectures, and clear vision."
+    },
+    {
+      "id": "item-2",
+      "name": "Limited-Edition Designer Sneakers",
+      "category": "Want",
+      "tip": "Footwear is a necessity, but paying top-tier brand premiums is discretionary spending."
+    },
+    {
+      "id": "item-3",
+      "name": "Monthly Campus Transit / Bus Pass",
+      "category": "Need",
+      "tip": "Required to attend classes, library shifts, and internships on time."
+    },
+    {
+      "id": "item-4",
+      "name": "Late-Night Takeout Food Delivery",
+      "category": "Want",
+      "tip": "Convenience delivery fees and markups add up fast. Cooking simple staples saves over $150/mo."
+    },
+    {
+      "id": "item-5",
+      "name": "Mandatory Semester Course Textbook",
+      "category": "Need",
+      "tip": "Directly impacts grades. Pro-tip: look for used copies or library rentals first!"
+    },
+    {
+      "id": "item-6",
+      "name": "Video Game Battle Pass / Skins",
+      "category": "Want",
+      "tip": "Great entertainment, but purely cosmetic and safe to skip when money is tight."
+    },
+    {
+      "id": "item-7",
+      "name": "Basic Nutritious Groceries (Oats, Eggs, Veggies)",
+      "category": "Need",
+      "tip": "Fuel for your brain and immune system during intense exam study weeks."
+    },
+    {
+      "id": "item-8",
+      "name": "Third Streaming Video Subscription",
+      "category": "Want",
+      "tip": "Rotate one streaming service each month rather than paying for 3 simultaneously."
+    }
+  ]
+}

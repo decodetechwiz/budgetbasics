@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Home / Overview",
+      "subtitle": "Platform introduction & student financial readiness portal",
+      "badge": "Landing Hub",
+      "badgeColor": "#10b981",
+      "coreFeatures": [
+        "Interactive Problem & Solution Tree tackling student cash leaks",
+        "Introduction to BudgetBasics mission & zero-jargon learning",
+        "Frequently Asked Questions (FAQs) for college money management",
+        "Direct launchpad buttons to calculators, simulators, and guides"
+      ]
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "title": "About Us",
+      "subtitle": "Mission, core values & Team Decode behind BudgetBasics",
+      "badge": "Team & Mission",
+      "badgeColor": "#3b82f6",
+      "coreFeatures": [
+        "Team Decode developer & designer profiles with modern avatars",
+        "4 Guiding Pillars: 100% Free, Zero Bank Linking, Student-Tailored, Habit Simplicity",
+        "Interactive community feedback submission form with live validation",
+        "Student community reviews & verified campus feedback display"
+      ]
+    },
+    {
+      "id": "basics",
+      "path": "/basics",
+      "title": "Basics & Needs",
+      "subtitle": "Foundational money habits, rules, and impulse discipline",
+      "badge": "Interactive Learning",
+      "badgeColor": "#f59e0b",
+      "coreFeatures": [
+        "Needs vs Wants Interactive Game with instant scoring & feedback",
+        "Student spending scenarios (course textbooks, transit passes, designer sneakers)",
+        "Educational Cards covering Income vs Outflow, 50/30/20, & 24-Hour Rule",
+        "Direct CTA linking into the 50/30/20 Budget Calculator"
+      ]
+    },
+    {
+      "id": "calculator",
+      "path": "/calculator",
+      "title": "50/30/20 Calculator",
+      "subtitle": "Simple guilt-free formula dividing income into Needs, Wants & Savings",
+      "badge": "Financial Tool",
+      "badgeColor": "#10b981",
+      "coreFeatures": [
+        "Instant calculation of 50% Needs, 30% Wants, and 20% Savings limits",
+        "One-tap student earning presets ($450 Allowance, $1,200 Work-Study, $2,800 Internship, $3,500 Junior Dev)",
+        "Custom income input with real-time dynamic visual breakdown bars",
+        "Adaptive guidance for high cost-of-living college scenarios (60/25/15 ratio)"
+      ]
+    },
+    {
+      "id": "exptracker",
+      "path": "/exptracker",
+      "title": "Expense Tracker",
+      "subtitle": "Real-time session expense logging with smart classification",
+      "badge": "Budgeting Engine",
+      "badgeColor": "#8b5cf6",
+      "coreFeatures": [
+        "Session-based expense logging with description, amount, and category",
+        "Automatic sorting into Needs, Wants, and Worthless (wasteful) spends",
+        "Visual Spending Health Alert Badges (Balanced, High Wants, Danger)",
+        "Net Cash Flow & remaining balance indicator with local storage persistence"
+      ]
+    },
+    {
+      "id": "infographics",
+      "path": "/infographics",
+      "title": "Infographics Gallery",
+      "subtitle": "Visual blueprints and cheat sheets for student financial literacy",
+      "badge": "Visual Guides",
+      "badgeColor": "#06b6d4",
+      "coreFeatures": [
+        "8 Curated Visual Guides across Budgeting, Savings, Wasted Expenses & Investing",
+        "Real-time Search Filter by keywords, action items, or guide titles",
+        "Category filter tabs (Budgeting, Savings, Wasted Expenses, Investments)",
+        "Actionable 3-point checklist on every guide for immediate implementation"
+      ]
+    }
+  ]
+}

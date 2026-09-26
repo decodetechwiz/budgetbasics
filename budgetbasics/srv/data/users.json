@@ -1,0 +1,26 @@
+[
+  {
+    "id": "usr_01",
+    "name": "Alex Morgan",
+    "username": "alexmorgan",
+    "email": "alex.morgan@budgetbasics.org",
+    "password": "alex123",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=240&h=240&q=80",
+    "role": "Finance Scholar",
+    "joinedDate": "January 2026",
+    "college": "College of Business",
+    "bio": "Studying smart investing, emergency funds, and student debt management."
+  },
+  {
+    "id": "usr_02",
+    "name": "Sarah Chen",
+    "username": "sarahc",
+    "email": "sarah.chen@budgetbasics.org",
+    "password": "sarah123",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=240&h=240&q=80",
+    "role": "Budget Explorer",
+    "joinedDate": "February 2026",
+    "college": "School of Computing",
+    "bio": "Building healthy savings habits with the 50/30/20 rule."
+  }
+]

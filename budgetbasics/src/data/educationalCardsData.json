@@ -1,0 +1,31 @@
+{
+  "concepts": [
+    {
+      "id": "income-expenses",
+      "title": "Income vs Expenses",
+      "description": "Income is all money flowing in (allowance, part-time shifts). Expenses are cash flowing out. Golden rule: never let monthly outflow exceed verified inflow.",
+      "iconName": "TrendingUp",
+      "color": "#10b981",
+      "bgColor": "rgba(16, 185, 129, 0.15)",
+      "delay": 50
+    },
+    {
+      "id": "50-30-20",
+      "title": "The 50/30/20 Rule",
+      "description": "A stress-free ratio: 50% for core needs (dorm, groceries), 30% for guilt-free lifestyle fun, and 20% reserved for savings or wiping out debt.",
+      "iconName": "PiggyBank",
+      "color": "#3b82f6",
+      "bgColor": "rgba(59, 130, 246, 0.15)",
+      "delay": 100
+    },
+    {
+      "id": "impulse-spending",
+      "title": "Avoid Impulse Buys",
+      "description": "Practice the 24-Hour Rule: wait a full day before purchasing any non-essential item. If the urge fades, you just protected valuable student savings.",
+      "iconName": "AlertTriangle",
+      "color": "#f59e0b",
+      "bgColor": "rgba(245, 158, 11, 0.15)",
+      "delay": 150
+    }
+  ]
+}

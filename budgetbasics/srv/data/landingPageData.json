@@ -1,0 +1,104 @@
+{
+  "treeBranches": [
+    {
+      "id": "branch-1",
+      "branchNumber": "01",
+      "label": "Cash Flow & Leaks",
+      "problem": {
+        "title": "The 'Disappearing Money' Trap",
+        "desc": "Allowances and part-time paychecks seem to vanish within the first two weeks of the month. Campus coffees, food delivery fees, and unmonitored swipes quietly drain bank balances.",
+        "impact": "Results in empty pockets before the month ends, forced borrowing, and unnecessary stress."
+      },
+      "solution": {
+        "title": "Zero-Friction Session Expense Tracker",
+        "desc": "Instant, visual expense tracking that categorizes transactions into Needs vs Wants on the fly. Spot micro-leaks immediately and keep your monthly spending within safe limits.",
+        "actionLabel": "Try Expense Tracker",
+        "routeTarget": "/exptracker"
+      },
+      "delay": 100
+    },
+    {
+      "id": "branch-2",
+      "branchNumber": "02",
+      "label": "Budgeting Framework",
+      "problem": {
+        "title": "Overcomplicated Spreadsheets & Guilt",
+        "desc": "Traditional corporate budgets feel like homework. Tracking dozens of complex line items in clunky spreadsheets feels restrictive and leads students to quit after just a few days.",
+        "impact": "Creates budgeting burnout and the false belief that saving means sacrificing all fun."
+      },
+      "solution": {
+        "title": "The 50/30/20 Student Rule Calculator",
+        "desc": "A balanced, guilt-free formula: 50% for core living essentials, 30% for campus lifestyle and social outings, and 20% dedicated to building your future safety cushion.",
+        "actionLabel": "Launch 50/30/20 Calculator",
+        "routeTarget": "/calculator"
+      },
+      "delay": 150
+    },
+    {
+      "id": "branch-3",
+      "branchNumber": "03",
+      "label": "Spending Psychology",
+      "problem": {
+        "title": "Impulse Splurges & Campus Peer Pressure",
+        "desc": "Between social outings, flashy gadget releases, and constant group activities, distinguishing real needs from impulsive wants is tough when everyone around you is spending.",
+        "impact": "Leads to buyer's remorse, depleted emergency funds, and credit card reliance."
+      },
+      "solution": {
+        "title": "Needs vs Wants Simulator",
+        "desc": "Interactive scenarios based on realistic student decisions (used textbooks vs new, dorm groceries vs takeout). Trains financial intuition before your money is spent.",
+        "actionLabel": "Play Needs vs Wants Quiz",
+        "routeTarget": "/basics"
+      },
+      "delay": 200
+    },
+    {
+      "id": "branch-4",
+      "branchNumber": "04",
+      "label": "Privacy & Tools",
+      "problem": {
+        "title": "Inactive Apps & Monthly Subscription Paywalls",
+        "desc": "Popular commercial finance apps demand bank passwords, display aggressive loan ads, and lock essential features behind paid subscription tiers that students cannot afford.",
+        "impact": "Raises privacy concerns, increases monthly recurring costs, and creates platform lock-in."
+      },
+      "solution": {
+        "title": "100% Free, Private & Smooth Access",
+        "desc": "No accounts, no passwords, and absolutely no bank linking required. All data stays securely in your personal browser session with instant guidance available 24/7.",
+        "actionLabel": "Explore Visual Guides",
+        "routeTarget": "/infographics"
+      },
+      "delay": 250
+    }
+  ],
+  "faqItems": [
+    {
+      "id": "faq-1",
+      "question": "What is BudgetBasics, and is it really 100% free for students?",
+      "answer": "Yes, BudgetBasics is completely free! We built it as a dedicated educational initiative to empower college students and young adults with foundational financial literacy. There are no hidden fees, no subscriptions, no credit card requirements, and no advertisements."
+    },
+    {
+      "id": "faq-2",
+      "question": "How does the 50/30/20 budgeting rule work for students with a small income?",
+      "answer": "The beauty of the 50/30/20 rule is that it relies on percentages rather than rigid dollar amounts. Whether your monthly inflow is $300 from a campus stipend or $2,500 from a summer internship, dividing it into 50% for Needs (dorm rent, groceries, transit), 30% for Wants (concerts, dining out), and 20% for Savings gives you total clarity without feeling deprived."
+    },
+    {
+      "id": "faq-3",
+      "question": "Do I have to connect my bank account or share personal information?",
+      "answer": "Never. BudgetBasics is designed with complete client-side privacy in mind. We do not ask for your bank login, credit card numbers, or social security details. Your expense records are stored locally in your browser's private storage, giving you full control."
+    },
+    {
+      "id": "faq-4",
+      "question": "What is the practical difference between a 'Need' and a 'Want' in college?",
+      "answer": "A 'Need' is an expenditure essential for health, safety, and basic academic performance (such as tuition, required course textbooks, simple groceries, and transit). A 'Want' is an optional comfort or upgrade (such as restaurant delivery, branded sneakers, or multiple streaming services). Our interactive 'Needs vs. Wants' game helps you practice sorting these in real time!"
+    },
+    {
+      "id": "faq-5",
+      "question": "What if my essential expenses (rent, groceries) take up more than 50% of my income?",
+      "answer": "That is very common for students living in high-cost-of-living college towns! The 50/30/20 rule is a guiding target, not a rigid law. You can temporarily adjust the ratio to 60/25/15 or 70/20/10 while in school. The most important habit is keeping some portion consistently flowing toward an emergency fund."
+    },
+    {
+      "id": "faq-6",
+      "question": "Who can I reach out to if I have questions or need guidance?",
+      "answer": "You can chat with our built-in AI Assistant at any time by clicking the floating chat button on the bottom right corner of the screen. For official inquiries, feel free to reach out to our team at decode@aptechgdn.net."
+    }
+  ]
+}
